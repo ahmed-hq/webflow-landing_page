@@ -249,10 +249,23 @@ p {
     font-weight: 100;
 }
 
-
-
-
-
-.align-self_center {
-    align-self: center;
+.footer {
+    background-color: #161616;    
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
 }
+
+.footer-copyright {
+    margin: 0%;
+    color: #fbfbfe56;
+
+}
+
+.footer-link {
+    color: #fbfbfe56;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+
