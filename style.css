@@ -2,6 +2,8 @@ body {
     background-color: black;
     font-family: 'Roboto', sans-serif;
     color: #fbfbfe;
+    padding: 0px;
+    margin: 0px;
 }
 
 a {
@@ -106,8 +108,6 @@ p {
     justify-content: center;
 }
 
-.hero-img {
-}
 
 .hero_left-wrapper {
     display: flex;
@@ -158,10 +158,6 @@ p {
     
 }
 
-.feature-wrapper {
-    display: ;
-    
-}
 
 .feature_image-wrapper {
     display: flex;
@@ -182,3 +178,30 @@ p {
     margin: 0 auto;
 }
 
+.review-section {
+    background-color: #161616;
+    padding: 120px 0px 60px;
+
+}
+
+.review-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.review-text {
+    font-size: 46px;
+    font-weight: 200;
+    max-width: 1200px;
+    margin: 0%;
+    
+}
+
+.customer-name {
+    align-self: flex-end;
+    padding: 0px 60px;
+    font-weight: 700;
+    font-size: 32px;
+}
