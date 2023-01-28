@@ -7,6 +7,7 @@ body {
 a {
     text-decoration: none;
     color: #fbfbfe;
+    font-size: 16px;
 }
 
 button {
@@ -14,11 +15,28 @@ button {
     font-size: 16px;
     color: #00010A;
     background-color: #fbfbfe;
+    border: none;
+}
+
+h1 {
+    font-size: 94px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 26px;
+    font-weight: 300;
+    
 }
 
 .page-padding {
     padding-left: 80px;
     padding-right: 80px;
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
 }
 
 .nav {
@@ -49,4 +67,65 @@ button {
     margin-left: auto;
     align-items: center;
     gap: 54px;
+}
+
+.get-started_button {
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-color: #fbfbfe;
+    color: #fbfbfe;
+    font-weight: 100;
+    opacity: 70%;
+
+}
+
+.hero-section {
+    height: 100vh;
+}
+
+.hero_content-wrapper {
+    margin-top: 23vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero_right-wrapper {
+    display: flex;
+    height: 550px;
+    width: auto;
+    justify-content: center;
+}
+
+.hero-img {
+}
+
+.hero_left-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 700px;
+}
+
+.hero_describtion {
+    max-width: 400px;
+    margin-bottom: 60px;
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+.start-building_button {
+    background-color: #2e51bb;
+    color: #fbfbfe;
+    font-size: 26px;
+    font-weight: 400;
+    padding: 21px 52px;
+    
+}
+
+.hero_header {
+    margin: 0;
 }
