@@ -32,6 +32,14 @@ h2 {
     align-self: center;
 }
 
+h3 {
+    
+    font-size: 40px;
+    font-weight: 500;
+    align-self: center;
+    margin: 0%;
+}
+
 p {
     font-size: 26px;
     font-weight: 300;
@@ -181,6 +189,7 @@ p {
 .review-section {
     background-color: #161616;
     padding: 120px 0px 60px;
+    margin-bottom: 200px;
 
 }
 
@@ -204,4 +213,46 @@ p {
     padding: 0px 60px;
     font-weight: 700;
     font-size: 32px;
+}
+
+.cta-section {
+    padding: 120px 0;
+    margin-bottom: 60px; ;
+}
+
+.cta_card-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cta_card {
+    background-color: #2e51bb;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.cta_card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.cta_right {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.cta_describtion {
+    margin: 0%;
+    font-weight: 100;
+}
+
+
+
+
+
+.align-self_center {
+    align-self: center;
 }
