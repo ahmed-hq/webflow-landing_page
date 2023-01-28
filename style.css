@@ -23,6 +23,13 @@ h1 {
     font-weight: 500;
 }
 
+h2 {
+    
+    font-size: 52px;
+    font-weight: 500;
+    align-self: center;
+}
+
 p {
     font-size: 26px;
     font-weight: 300;
@@ -129,3 +136,49 @@ p {
 .hero_header {
     margin: 0;
 }
+
+.features-section {
+    margin-bottom: 320px;
+}
+
+.section_header {
+    margin-bottom: 120px;
+}
+
+.features_content-wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.features_wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    
+}
+
+.feature-wrapper {
+    display: ;
+    
+}
+
+.feature_image-wrapper {
+    display: flex;
+    height: 120px;
+    opacity: 95%;
+    margin-bottom: 40px;
+    
+    
+}
+
+.features_feature-describtion {
+    max-width: 200px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.feature-icon {
+    margin: 0 auto;
+}
+
